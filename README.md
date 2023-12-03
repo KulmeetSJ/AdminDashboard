@@ -2,6 +2,9 @@
 
 This project is an Admin Dashboard that renders and displays data in a tabular format. The data is retrieved from the [Geektrust Members API](https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json) and provides various functionalities for managing the displayed data.
 
+![image](https://github.com/KulmeetSJ/AdminDashboard/assets/75109574/f12f690f-81e7-4a48-a3af-a586a3b89054)
+
+
 ## Features
 ### 1. Data Display
 The Admin Dashboard fetches data from the Geektrust Members API and presents it in a clear and organized tabular format.
