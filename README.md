@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Admin Dashboard 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an Admin Dashboard that renders and displays data in a tabular format. The data is retrieved from the [Geektrust Members API](https://geektrust.s3-ap-southeast-1.amazonaws.com/adminui-problem/members.json) and provides various functionalities for managing the displayed data.
 
-## Available Scripts
+## Features
+### 1. Data Display
+The Admin Dashboard fetches data from the Geektrust Members API and presents it in a clear and organized tabular format.
 
-In the project directory, you can run:
+### 2. Functionalities
+2.1 Delete
+Users can delete individual entries from the table by clicking the "Delete" button associated with each row.
 
-### `npm start`
+2.2 Select
+Users can select individual rows by clicking the checkbox associated with each row.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.3 Select All
+A "Select All" checkbox is provided at the top of the table, allowing users to select all displayed rows at once.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.4 Edit
+Users can edit the details of a specific row by clicking the "Edit" button. This switches the row to an editable mode, allowing changes to be made.
 
-### `npm test`
+2.5 Save Edit
+After making changes in the editable mode, users can save the edits by clicking the "Save" button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.6 Delete All
+A "Delete All" button is provided, allowing users to delete all the selected rows at once.
 
-### `npm run build`
+2.7 Pagination
+The table supports pagination, dividing the data into manageable pages for easier navigation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- React
+- Tailwind CSS
+- React Paginate
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```git clone https://github.com/your-username/admin-dashboard.git```
+2. Install dependencies:
+   ```npm install```
+3. Start the application:
+   ```npm start```
+4. Open the application in your browser:
+   ```http://localhost:3000```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Acknowledgments
+Data provided by Geektrust
+Feel free to explore and use this Admin Dashboard for managing tabular data efficiently. If you have any suggestions or encounter issues, please let us know!
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Deployed on [Vercel](admin-dashboard-eight-sage.vercel.app)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
